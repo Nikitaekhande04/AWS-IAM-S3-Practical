@@ -30,8 +30,6 @@ Tested S3 access using `developer-user`.
 - Downloading `report.txt`: Allowed
 - Uploading an object: Denied
 
-*Note: Record the delete test result only if you actually tested it.*
-
 ### Task 6: Create and Secure an S3 Bucket
 Created the S3 bucket `iam-policy-bucket-001`, enabled Block Public Access and default server-side encryption, and uploaded sample files.
 
@@ -46,8 +44,6 @@ Created the enabled lifecycle rule `BackupTransitionRule` for objects under `bac
 
 ### Task 10: Configure Server Access Logging
 Created the destination bucket `destination-bucket-logs-001`, enabled server access logging on the source bucket, and configured destination permissions for S3 log delivery.
-
-*Note: Logging was enabled and permissions were configured. Successful log delivery should only be reported if a log object was observed in the destination bucket.*
 
 ### Task 11: Explain Encryption and Access Controls
 Inspected the server-side encryption settings of an uploaded object and reviewed the differences between IAM policies and S3 bucket policies, along with the purpose of Block Public Access.
